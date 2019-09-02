@@ -2,18 +2,6 @@
 
 require 'FPDF/fpdf.php';
 
-/*// Datos de conexión
-$mysqli = new mysqli("localhost", "root", "", "pruebas");
-
-if(mysqli_connect_errno()) {
-	echo 'Conexion fallida: ', mysqli_connect_errno();
-	exit();
-}
-
-// Consulta
-$query = "SELECT * FROM usuarios";
-$resultado = $mysqli->query($query);*/
-
 $estudiante1 = [
 	"nombre" => "Juan Perez Perez",
 	"grado" => 5,
